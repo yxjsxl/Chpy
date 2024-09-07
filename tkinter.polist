@@ -1,0 +1,1 @@
+{"main_info":{"name":"tkinter","by":"xiaoliang","ver":["bate1.0.0","1.0.0","1.0.1","bate1.0.2"],"note":"tkinter翻译文件"},"tk.创建窗口":"window = tkinter.Tk","tk.窗口更新loop":"window.mainloop","tk.窗口标题":"window.title","tk.手动更新":"window.update"}
