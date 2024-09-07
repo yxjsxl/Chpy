@@ -74,7 +74,7 @@ if sys.argv[1]=="-build":
                 print("chpyBuild:写入-导入模块编译列表")
                 try:
                     commls = command[1].split(".")
-                    with open("./module/"+commls[0].replace("\n","")+".polist","r",encoding="utf-8") as imk:
+                    with open("./"+commls[0].replace("\n","")+".polist","r",encoding="utf-8") as imk:
                         imkline = imk.readline()
                         if ver in json.loads(imkline)["main_info"]["ver"]:
                             imp.update(json.loads(imkline))
