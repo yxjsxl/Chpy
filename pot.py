@@ -56,10 +56,16 @@ if sys.argv[1]=="-build":
                 # bate-v1.0.2版本 pout/输出 函数重构
                 fls=fls+tab+"print("+command[1].replace("\n","")+")\n"
             elif "d输入" in command[0]:
-                print("chpyBuild:写入-input函数")
+                print("chpyBuild:写入-d/input函数")
                 try:
                     inptemp = command[0].split("=")[0]
                     fls=fls+tab+inptemp+" = input("+command[1]+")\n"
+                except Exception as e:
+                    chpyERR(e)
+            elif "输入" in command[0]:
+                print("chpyBuild:写入-input函数")
+                try:
+                    fls=fls+tab+command[2].replace("\n", "")+" = input("+command[1]+")\n"
                 except Exception as e:
                     chpyERR(e)
             elif command[0] == "import" or command[0] == "导入":
