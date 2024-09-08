@@ -1,4 +1,8 @@
 # README.md
+![GitHub forks](https://img.shields.io/github/forks/yxjsxl/Chpy)
+![GitHub Repo stars](https://img.shields.io/github/stars/yxjsxl/Chpy)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/yxjsxl/Chpy/python-package.yml)
+
 by:xiaoliang(文档协议:CC-BY-SA 4.0协议)
 ## 欢迎
 欢迎来到Chpy的README
